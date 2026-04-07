@@ -1,0 +1,317 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eshan Zia | Business Developer & Full Stack Dev</title>
+    <meta name="description" content="Portfolio of Eshan Zia, Business Developer and AI/Full-Stack enthusiast. Specializing in pipeline generation, web development, and client management.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{% static 'core/css/styles.css' %}">
+</head>
+<body>
+    
+    <!-- Background Elements -->
+    <div class="bg-glow-wrapper">
+        <div class="orb orb-primary"></div>
+        <div class="orb orb-secondary"></div>
+    </div>
+
+    <!-- Header Navigation -->
+    <header>
+        <div class="container nav-container">
+            <a href="#" class="logo">ESHAN ZIA.</a>
+            <div style="display: flex; gap: 20px;">
+                <a href="#about" class="btn btn-outline" style="padding: 8px 20px; font-size: 0.9rem;">About</a>
+                <a href="#experience" class="btn btn-outline" style="padding: 8px 20px; font-size: 0.9rem;">Experience</a>
+                <a href="#upwork-profiles" class="btn btn-outline" style="padding: 8px 20px; font-size: 0.9rem;">Upwork Profiles</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="section hero">
+        <div class="container">
+            <div style="display: inline-flex; align-items: center; gap: 10px; padding: 8px 16px; border-radius: 50px; background: rgba(255,255,255,0.05); border: 1px solid var(--border); margin-bottom: 30px;">
+                <span style="display: block; width: 8px; height: 8px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 10px var(--accent);"></span>
+                <span style="font-size: 0.85rem; font-weight: 500; color: var(--text-secondary);">Available for new opportunities</span>
+            </div>
+            
+            <h1>
+                <span style="display: block;">Strategic Growth &</span>
+                <span class="gradient-text">Business Development</span>
+                <span style="display: block;">Meets Technology</span>
+            </h1>
+            
+            <p>I help businesses build pipelines and close deals, supported by my deep understanding of MEAN/MERN, Python AI/ML, and SaaS development to understand and fulfill client needs perfectly.</p>
+            
+            <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+                <a href="#experience" class="btn btn-primary">
+                    Explore My Journey
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                </a>
+                <a href="#contact" class="btn btn-outline">Let's Get In Touch</a>
+            </div>
+            
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <h3>5+</h3>
+                    <p style="font-size:0.9rem; margin:0;">Years Experience</p>
+                </div>
+                <div class="stat-item">
+                    <h3 style="color: var(--secondary)">$50K+</h3>
+                    <p style="font-size:0.9rem; margin:0;">Qualified Pipeline</p>
+                </div>
+                <div class="stat-item">
+                    <h3 style="color: var(--accent)">40%</h3>
+                    <p style="font-size:0.9rem; margin:0;">Client Reach Boost</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section z-10 relative">
+        <div class="container about-grid">
+            <div class="about-text">
+                <h2>About <span class="gradient-text-secondary">Me</span></h2>
+                <p>I have 5+ years of experience in Business Development working in the Tech sector, Marketing, and SaaS sales. I specialize on Upwork and LinkedIn for agencies, SMEs, and individuals, building strategic partnerships across the US, UK, Finland, and Pakistan profiles.</p>
+                <p>I am known for my strong work ethic and commitment. Furthermore, I am deepening my skills in Python Django full-stack development to help myself in project management. Closing deals comes naturally when you completely understand client technical needs.</p>
+                
+                <h4 style="margin-top: 30px; font-size: 1.2rem; margin-bottom: 15px;">Hands-on Technical Profile Management:</h4>
+                <ul class="skills-list">
+                    <li>MEAN/MERN Full Stack Development</li>
+                    <li>Python AI/ML and Full Stack development</li>
+                    <li>Digital Marketing (SMM and MetaMarketing)</li>
+                    <li>Ecommerce (EBAY/ETSY/AMAZON)</li>
+                    <li>Custom WordPress & Shopify Development</li>
+                </ul>
+            </div>
+            <div class="about-image">
+                <img src="{% static 'core/images/profile/eshan_profile.jpeg' %}" alt="Eshan Zia" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section z-10 relative">
+        <div class="container">
+            <div style="text-align: center; margin-bottom: 60px;">
+                <h2>My <span class="gradient-text">Experience</span></h2>
+                <p style="color: var(--text-secondary); max-width: 600px; margin: 15px auto;">I have much more to say about my journey, let's get in touch first to speak more!!</p>
+            </div>
+            
+            <div class="experience-grid">
+                
+                <!-- Card 1 -->
+                <div class="glass-card exp-card">
+                    <div class="exp-header">
+                        <h3 class="exp-title">Business LEAD</h3>
+                        <div class="exp-company">Solution GIvers LTD</div>
+                        <div class="exp-meta">
+                            <span>21/9/2025</span>
+                            <span>Birmingham, UK (REMOTE)</span>
+                        </div>
+                    </div>
+                    <ul class="exp-bullets">
+                        <li>AI/Full Stack Development Upwork BIDDING</li>
+                        <li>Profile Optimization & New Strategy Building</li>
+                        <li>Linkedin Bidding</li>
+                        <li>Sales Funnel Development</li>
+                    </ul>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="glass-card exp-card">
+                    <div class="exp-header">
+                        <h3 class="exp-title">Business Developer Executive</h3>
+                        <div class="exp-company">StackAxiom</div>
+                        <div class="exp-meta">
+                            <span>6/2/2025 - 9/9/2026 (8 months)</span>
+                            <span>Lahore, Pakistan (Onsite)</span>
+                        </div>
+                    </div>
+                    <ul class="exp-bullets">
+                        <li>Upwork Profile Optimization</li>
+                        <li>MERN & PYTHON Bidder</li>
+                        <li>Upwork bidding & Lead Generation</li>
+                        <li>Client Relationship Manager</li>
+                    </ul>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="glass-card exp-card">
+                    <div class="exp-header">
+                        <h3 class="exp-title">Staffing And Recruiting | BDE</h3>
+                        <div class="exp-company">Devminds Studio</div>
+                        <div class="exp-meta">
+                            <span>03/2024 (1.5 year)</span>
+                            <span>Lahore, Pakistan (HYBRID)</span>
+                        </div>
+                    </div>
+                    <ul class="exp-bullets">
+                        <li>Lead Generation & Project management</li>
+                        <li>Upwork Bidder & Connecting Businesses</li>
+                        <li>Sourcing screen & Onboarding</li>
+                        <li>Full time contract & Remote roles</li>
+                    </ul>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="glass-card exp-card" style="border-color: rgba(16, 185, 129, 0.3);">
+                    <div class="exp-header">
+                        <h3 class="exp-title">Software Engineering Intern</h3>
+                        <div class="exp-company" style="color: var(--accent);">Sygnls</div>
+                        <div class="exp-meta">
+                            <span>07/2025 (7 Months)</span>
+                            <span>Lahore, Pakistan (HYBRID)</span>
+                        </div>
+                    </div>
+                    <ul class="exp-bullets">
+                        <li>Python Developer & Django</li>
+                        <li>Back-End Developer & PostgreSQL</li>
+                        <li>Associated Python Developer</li>
+                        <li>Anti Gravity, Cursor</li>
+                    </ul>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="glass-card exp-card">
+                    <div class="exp-header">
+                        <h3 class="exp-title">Business Developer Executive</h3>
+                        <div class="exp-company">Expertsdesk | UX Design Studio</div>
+                        <div class="exp-meta">
+                            <span>21/09/2024 - 2/6/2025 (10 Months)</span>
+                            <span>Onsite</span>
+                        </div>
+                    </div>
+                    <ul class="exp-bullets">
+                        <li>HCD Design Bidding</li>
+                        <li>Upwork Profile Optimization</li>
+                        <li>Upwork bidding & Client Relationship Manager</li>
+                        <li>Project Management</li>
+                    </ul>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="glass-card exp-card">
+                    <div class="exp-header">
+                        <h3 class="exp-title">QA Tester</h3>
+                        <div class="exp-company">Silvestor Studio GP</div>
+                        <div class="exp-meta">
+                            <span>7/7/2023</span>
+                            <span>Lahore, Pakistan (Part-time)</span>
+                        </div>
+                    </div>
+                    <ul class="exp-bullets">
+                        <li>Testing of Mobile applications</li>
+                        <li>Testing of Websites & Web pages</li>
+                        <li>Testing of Games</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    
+    <!-- Upwork Profiles Section -->
+    <section id="upwork-profiles" class="section z-10 relative">
+        <div class="container">
+            <div style="text-align: center; margin-bottom: 60px;">
+                <h2>Upwork Profiles <span class="gradient-text-secondary">Managed</span></h2>
+                <p style="color: var(--text-secondary); max-width: 600px; margin: 15px auto;">Take a look at the success metrics, earnings, and profiles I have systematically optimized and grown on Upwork.</p>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 30px;">
+                <div class="glass-card" style="padding: 15px; display: flex; align-items: center; justify-content: center;">
+                    <img src="{% static 'core/images/upwork/upwork_profiles/profile_1.png' %}" alt="Upwork Profile 1" style="width: 100%; height: auto; border-radius: 12px; object-fit: cover; border: 1px solid var(--border); box-shadow: 0 4px 20px rgba(0,0,0,0.3);">
+                </div>
+                <div class="glass-card" style="padding: 15px; display: flex; align-items: center; justify-content: center;">
+                    <img src="{% static 'core/images/upwork/upwork_profiles/profile_2.png' %}" alt="Upwork Profile 2" style="width: 100%; height: auto; border-radius: 12px; object-fit: cover; border: 1px solid var(--border); box-shadow: 0 4px 20px rgba(0,0,0,0.3);">
+                </div>
+                <div class="glass-card" style="padding: 15px; display: flex; align-items: center; justify-content: center;">
+                    <img src="{% static 'core/images/upwork/upwork_profiles/profile_3.png' %}" alt="Upwork Profile 3" style="width: 100%; height: auto; border-radius: 12px; object-fit: cover; border: 1px solid var(--border); box-shadow: 0 4px 20px rgba(0,0,0,0.3);">
+                </div>
+                <div class="glass-card" style="padding: 15px; display: flex; align-items: center; justify-content: center;">
+                    <img src="{% static 'core/images/upwork/upwork_profiles/profile_4.png' %}" alt="Upwork Profile 4" style="width: 100%; height: auto; border-radius: 12px; object-fit: cover; border: 1px solid var(--border); box-shadow: 0 4px 20px rgba(0,0,0,0.3);">
+                </div>
+                <div class="glass-card" style="padding: 15px; display: flex; align-items: center; justify-content: center;">
+                    <img src="{% static 'core/images/upwork/upwork_profiles/profile_5.png' %}" alt="Upwork Profile 5" style="width: 100%; height: auto; border-radius: 12px; object-fit: cover; border: 1px solid var(--border); box-shadow: 0 4px 20px rgba(0,0,0,0.3);">
+                </div>
+                <div class="glass-card" style="padding: 15px; display: flex; align-items: center; justify-content: center;">
+                    <img src="{% static 'core/images/upwork/upwork_profiles/profile_6.png' %}" alt="Upwork Profile 6" style="width: 100%; height: auto; border-radius: 12px; object-fit: cover; border: 1px solid var(--border); box-shadow: 0 4px 20px rgba(0,0,0,0.3);">
+                </div>
+                <div class="glass-card" style="padding: 15px; display: flex; align-items: center; justify-content: center;">
+                    <img src="{% static 'core/images/upwork/upwork_profiles/profile_7.jpeg' %}" alt="Upwork Profile 7" style="width: 100%; height: auto; border-radius: 12px; object-fit: cover; border: 1px solid var(--border); box-shadow: 0 4px 20px rgba(0,0,0,0.3);">
+                </div>
+                <div class="glass-card" style="padding: 15px; display: flex; align-items: center; justify-content: center;">
+                    <img src="{% static 'core/images/upwork/upwork_profiles/profile_8.jpeg' %}" alt="Upwork Profile 8" style="width: 100%; height: auto; border-radius: 12px; object-fit: cover; border: 1px solid var(--border); box-shadow: 0 4px 20px rgba(0,0,0,0.3);">
+                </div>
+                <div class="glass-card" style="padding: 15px; display: flex; align-items: center; justify-content: center;">
+                    <img src="{% static 'core/images/upwork/upwork_profiles/profile_9.jpeg' %}" alt="Upwork Profile 9" style="width: 100%; height: auto; border-radius: 12px; object-fit: cover; border: 1px solid var(--border); box-shadow: 0 4px 20px rgba(0,0,0,0.3);">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section education z-10 relative">
+        <div class="container">
+            <h2 style="margin-bottom: 40px;">My <span class="gradient-text-secondary">Education</span></h2>
+            <div class="glass-card edu-card">
+                <div style="width: 60px; height: 60px; background: rgba(0, 212, 255, 0.1); border-radius: 16px; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; color: var(--primary);">
+                    <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+                </div>
+                <h3 style="font-size: 1.5rem; margin-bottom: 10px;">Computer Business & Software Engineering</h3>
+                <p style="color: var(--primary); font-weight: 600;">6 Months Intensive Course</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contact -->
+    <footer id="contact" class="footer relative z-10">
+        <div class="container">
+            <h2 style="font-size: 3rem;">Ready To <span class="gradient-text">Close Deals?</span></h2>
+            <p style="color: var(--text-secondary); margin-top: 20px; font-size: 1.1rem;">I have much more to say about my journey, let's get in touch first to speak more!!</p>
+            <div style="display: flex; flex-direction: column; align-items: center; gap: 10px; margin: 30px 0;">
+                <a href="mailto:eshanforjob@gmail.com" class="gradient-text footer-email" style="margin: 0; font-size: 1.8rem;">eshanforjob@gmail.com</a>
+                <a href="tel:+923416244994" class="gradient-text-secondary footer-email" style="margin: 0; font-size: 1.5rem;">+92 3416244994</a>
+            </div>
+            
+            <div style="margin-top: 40px; padding-top: 40px; border-top: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; color: var(--text-secondary); font-size: 0.9rem;">
+                <p>&copy; 2026 Eshan Zia. All rights reserved.</p>
+                <div style="display: flex; gap: 20px;">
+                    <span>Designed with ❤️ via Prompting</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Interactive JS -->
+    <script>
+        document.addEventListener('mousemove', (e) => {
+            const orbs = document.querySelectorAll('.orb');
+            const x = e.clientX / window.innerWidth;
+            const y = e.clientY / window.innerHeight;
+            
+            orbs[0].style.transform = `translate(${x * 30}px, ${y * 30}px) scale(1.1)`;
+            orbs[1].style.transform = `translate(${x * -40}px, ${y * -40}px) scale(1.1)`;
+        });
+
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
